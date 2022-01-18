@@ -25,10 +25,8 @@ function passwordGen() {
         number: beNumbers,
         special: beSpecialCharacters 
       }
-
+        // passwordGen() returns options object
         return options;
-
-    
 }
 
 // Prompts for password criteria
